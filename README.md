@@ -1,5 +1,9 @@
 # ESP32-S3 SmartPanel
 
+<p align="center">
+  <img src="docs/screenshots/board.jpg" alt="ESP32-S3 SmartPanel board running firmware" width="520"/>
+</p>
+
 > 基于 **ESP-IDF v5.5** 的 ESP32-S3 智能面板量产固件 —— 1.54" LCD + 语音唤醒 + BLE 空调控制 + 红外/433 学习 + 4G/WiFi 双链路 + MQTT/OTA 全套云端协同。
 
 本仓库展示嵌入式固件部分（C/C++/ESP-IDF）。配套的 Python AI Server（语音识别、LLM 推理、设备指令下发）不在本仓库公开。
