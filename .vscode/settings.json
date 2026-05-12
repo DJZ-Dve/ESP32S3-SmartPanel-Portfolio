@@ -1,0 +1,35 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.intelliSenseEngineFallback": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "clangd.arguments": [
+        "--background-index",
+        "--header-insertion=never",
+        "--clang-tidy=false",
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--query-driver=/Users/djz/.espressif/tools/xtensa-esp-elf/**/bin/xtensa-esp32s3-elf-*,/Users/djz/.espressif/tools/riscv32-esp-elf/**/bin/riscv32-esp-elf-*"
+    ],
+    "clangd.path": "clangd",
+    "clangd.checkUpdates": false,
+    "clangd.detectExtensionConflicts": false,
+    "cmake.cmakePath": "/Users/djz/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin/cmake",
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DPYTHON_DEPS_CHECKED=1",
+        "-DESP_PLATFORM=1"
+    ],
+    "cmake.environment": {
+        "IDF_PATH": "/Users/djz/esp/esp-idf",
+        "IDF_TOOLS_PATH": "/Users/djz/.espressif",
+        "IDF_PYTHON_ENV_PATH": "/Users/djz/.espressif/python_env/idf5.5_py3.9_env",
+        "PYTHON": "/Users/djz/.espressif/python_env/idf5.5_py3.9_env/bin/python",
+        "OPENOCD_SCRIPTS": "/Users/djz/.espressif/tools/openocd-esp32/v0.12.0-esp32-20260304/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/Users/djz/.espressif/tools/esp-rom-elfs/20241011/",
+        "PATH": "/Users/djz/esp/esp-idf/components/espcoredump:/Users/djz/esp/esp-idf/components/partition_table:/Users/djz/esp/esp-idf/components/app_update:/Users/djz/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin:/Users/djz/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin:/Users/djz/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20260121/riscv32-esp-elf/bin:/Users/djz/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin:/Users/djz/.espressif/tools/cmake/3.30.2/CMake.app/Contents/bin:/Users/djz/.espressif/tools/openocd-esp32/v0.12.0-esp32-20260304/openocd-esp32/bin:/Users/djz/.espressif/tools/ninja/1.12.1/:/Users/djz/.espressif/python_env/idf5.5_py3.9_env/bin:/Users/djz/esp/esp-idf/tools:${env:PATH}"
+    },
+    "idf.currentSetup": "/Users/djz/esp/esp-idf",
+    "idf.adapterTargetName": "esp32s3",
+    "editor.formatOnSave": false,
+    "idf.flashType": "UART",
+    "idf.port": "/dev/tty.usbmodem31301"
+}

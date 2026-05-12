@@ -1,0 +1,94 @@
+{
+  "format": {
+    "sample_rate_hz": 16000,
+    "bits_per_sample": 16,
+    "channels": 1,
+    "encoding": "signed_little_endian_raw_pcm"
+  },
+  "cues": {
+    "wake_ack": [
+      {
+        "text": "我在",
+        "file": "/audio_cues/wake_ack/wake_ack_01.pcm",
+        "bytes": 23070
+      }
+    ],
+    "settings_done": [
+      {
+        "text": "好的，已经设置完毕",
+        "file": "/audio_cues/settings_done/settings_done_01.pcm",
+        "bytes": 80640
+      }
+    ],
+    "done": [
+      {
+        "text": "搞定了",
+        "file": "/audio_cues/done/done_01.pcm",
+        "bytes": 44544
+      }
+    ],
+    "op_failed": [
+      {
+        "text": "操作失败，请重试",
+        "file": "/audio_cues/op_failed/op_failed_01.pcm",
+        "bytes": 81408
+      }
+    ],
+    "network_failed": [
+      {
+        "text": "网络出问题了",
+        "file": "/audio_cues/network_failed/network_failed_01.pcm",
+        "bytes": 58368
+      }
+    ],
+    "not_understood": [
+      {
+        "text": "我没听清",
+        "file": "/audio_cues/not_understood/not_understood_01.pcm",
+        "bytes": 49152
+      }
+    ],
+    "chitchat_unsupported": [
+      {
+        "text": "我不会聊天",
+        "file": "/audio_cues/chitchat_unsupported/chitchat_unsupported_01.pcm",
+        "bytes": 54528
+      }
+    ],
+    "device_unsupported": [
+      {
+        "text": "只能控制空调",
+        "file": "/audio_cues/device_unsupported/device_unsupported_01.pcm",
+        "bytes": 62208
+      }
+    ],
+    "scene_not_found": [
+      {
+        "text": "还没学习这条命令",
+        "file": "/audio_cues/scene_not_found/scene_not_found_01.pcm",
+        "bytes": 72960
+      }
+    ],
+    "learn_press_key": [
+      {
+        "text": "请按一下要学习的遥控器按键",
+        "file": "/audio_cues/learn_press_key/learn_press_key_01.pcm",
+        "bytes": 100608
+      }
+    ],
+    "learn_press_again": [
+      {
+        "text": "请再按一次相同的按键",
+        "file": "/audio_cues/learn_press_again/learn_press_again_01.pcm",
+        "bytes": 81408
+      }
+    ],
+    "learn_say_name": [
+      {
+        "text": "请说出这条信号的名称",
+        "file": "/audio_cues/learn_say_name/learn_say_name_01.pcm",
+        "bytes": 83712
+      }
+    ]
+  }
+}

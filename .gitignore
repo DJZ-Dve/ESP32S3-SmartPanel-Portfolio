@@ -1,0 +1,46 @@
+# Local build outputs
+.pio/
+.platformio/
+build/
+managed_components/
+build_log*.txt
+*.bin
+!board_models/srmodels.bin
+*.elf
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+
+# VS Code
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# Clangd
+.clangd
+.cache/
+
+# Editor/IDE generated
+compile_commands.json
+addr_out.txt
+.DS_Store
+
+# Local scripts
+fix_compile_db.py
+fix_compile_db_v2.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyc.*
+.pytest_cache/
+
+# Server runtime caches
+server-side files/cache/
+server-side files/debug/
+server-side files/logs/
+server-side files/tmp/
+
+# Upstream vendored dependencies (managed by ESP-IDF Component Manager / git submodule)
+lib/

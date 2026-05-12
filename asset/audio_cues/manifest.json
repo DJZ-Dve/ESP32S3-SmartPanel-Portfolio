@@ -1,0 +1,47 @@
+{
+  "format": "raw PCM, signed 16-bit little-endian, mono, no WAV header",
+  "sample_rate_hz": 16000,
+  "volume": 0.72,
+  "cues": [
+    {
+      "name": "boot",
+      "description": "audio subsystem ready",
+      "priority": "high",
+      "pcm_file": "boot.pcm",
+      "duration_ms": 172,
+      "bytes": 5504
+    },
+    {
+      "name": "low_battery",
+      "description": "low battery warning",
+      "priority": "high",
+      "pcm_file": "low_battery.pcm",
+      "duration_ms": 438,
+      "bytes": 14016
+    },
+    {
+      "name": "record_stop",
+      "description": "recording stopped",
+      "priority": "high",
+      "pcm_file": "record_stop.pcm",
+      "duration_ms": 370,
+      "bytes": 11840
+    },
+    {
+      "name": "learn_capture",
+      "description": "learn flow: capturing remote button",
+      "priority": "high",
+      "pcm_file": "learn_capture.pcm",
+      "duration_ms": 238,
+      "bytes": 7616
+    },
+    {
+      "name": "learn_label",
+      "description": "learn flow: awaiting voice label",
+      "priority": "high",
+      "pcm_file": "learn_label.pcm",
+      "duration_ms": 314,
+      "bytes": 10048
+    }
+  ]
+}
